@@ -3,9 +3,10 @@
 # GitHub API URL
 API_URL="https://api.github.com"
 
-# GitHub username and personal access token
-USERNAME=$username
-TOKEN=$token
+# Set your GitHub username and personal access token or use environment variables
+# Uncomment the next two lines to set them directly in the script
+# USERNAME=$username
+# TOKEN=$token
 
 # User and Repository information
 REPO_OWNER=$1
